@@ -1,0 +1,358 @@
+*{
+	font-family: Monda
+}
+
+/*start admin home page */
+
+.home_agency_name{
+
+	padding: 7px 6px 8px 9px;
+	text-transform: capitalize;
+}
+
+.total_agency{
+	padding: 7px 6px 8px 9px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+
+.agency_link{
+	padding: 7px 6px 8px 9px;
+}	
+
+
+.agency_link a{
+	color: white;
+}
+.info-box-icon{
+	line-height: 140px;
+}
+
+/*end admin home page */
+.general_form{
+	width: 450px;
+	margin: auto;
+}
+
+.search_input{
+	border-radius: 15px;
+	padding: 4px 9px 0px 10px;
+}
+
+.search_icon:hover{
+	cursor: pointer;
+	color: grey;
+}
+.error_form{
+	width: 248px;
+	border-radius: 18px;
+}
+.search{
+	position: relative;
+}
+.fa-search{
+	position: absolute;
+	right: 7px;
+  	top: 5px;
+}
+.del_but{
+	margin-left: 10px;
+}
+.post_but{
+	padding-bottom: 20px;
+}
+.alert-info{
+	background: #3A3B3C !important;
+	border:1px solid white;
+	border-radius: 10px; 
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	color:  black;
+}
+
+.user_role{
+	margin-right: 20px;
+}
+
+/*start admin home page*/
+
+.general_box{
+	min-width: 350px;
+	max-width: 450px;
+	height: 150px;
+	
+}
+.agency_box{
+	margin:15px 0 9px ;
+}
+
+.agency_name{
+	color: rgb(97, 80, 80);
+	font-weight: bold;
+	margin-left: 8px;
+}
+.show_detail{
+	margin-left: 8px;
+}
+
+.back_to_home{
+	color: black;
+	font-weight: bold;
+}
+/*end admin home page*/
+
+
+
+/*start hired car*/
+.list_car {
+	  background-color: white;
+	  padding: 10px 9px 8px 12px;
+	  border-radius: 17px;
+	  width: 250px;
+	  float: left;
+	  margin-right: 23px;
+
+}
+
+.list_car .img_car{
+	width: 92%;
+	border-radius: 9%;
+	margin: 5px 4px 13px 3px;
+	transition: .5s ease ;
+	
+}
+
+.list_car .img_car:hover{
+	opacity: .6;
+	cursor: pointer;
+}
+
+.list_car .show_car_name{
+	font-weight: bold;
+	text-align: center;
+}
+
+.list_car .show_car_detail{
+	display: block;
+	text-align: center;
+}
+/*end hired car*/
+
+
+/*start show car detail*/
+
+.car_box{
+	margin-top: 25px;
+}
+
+.show_car_img{
+ width: 550px;
+ height: 278px;
+  padding: 4px 28px 0px 6px;
+}
+}
+.show_car_detail{
+	width: 465px;
+	height: 180px;
+	color: red;
+}
+
+.show_car_name{
+ margin-bottom: 5px;
+ color: rgb(23, 22, 22);
+ font-weight: bold;
+ text-transform: capitalize;
+ margin: 15px 10px;
+ display: inline-block;
+ border: 2px solid white;
+ background-color: white;
+ padding: 5px 6px 8px 8px;
+ border-radius: 15px;
+}
+
+.car_model{
+	margin-left: 16px;
+	color: rgb(21, 20, 20);
+	font-size: 10px;
+	font-weight: bold;
+}
+.agencyname{
+	color: rgb(87, 102, 87);
+	font-size: 10px;
+	font-weight: bold;
+	
+	margin-bottom: 10px;
+}
+
+.car_description{
+	width: 506px;
+	background-color: white;
+	padding: 8px 9px 10px 12px;
+	border-radius: 10px;
+}
+
+.list_all_img{
+	width: 250px;
+	height: 105px;
+	margin: 50px 38px 20px -25px;
+	transition: .5s ease;
+	border: 1px solid black;
+	border-radius: 8px;
+
+}
+.clicked_img{
+	border: 3px solid white;
+}
+
+.list_all_img:hover{
+	opacity: .7;
+	border: 1px solid white;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.rent_price{
+	text-align: center;
+	padding: 8px;
+	font-weight: bold;;
+	color: red;
+}
+
+.list_hired_users{
+	color: rgb(111, 104, 104);
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_hired_users_name{
+	  
+  font-size: 11px;
+  color: rgb(53, 53, 56);
+  border: 1px solid rgb(15, 14, 14);
+  background-color: rgb(234, 234, 234);
+  padding: 5px 4px 6px 6px;
+  border-radius: 7px;
+  margin: 5px 1px 0px 2px;
+}
+
+.from , .to{
+	color: grey;
+	font-size: 11px;
+	padding: 5px;
+}
+/*end show car detail*/
+
+/*start show hired user car detail*/
+
+.list_hired_user{
+	background: white;
+	  margin: 17px 14px 29px 50px;
+
+}
+
+.list_hired_user img{
+	border-radius: 50%;
+}
+
+.list_hired_user .username{
+	  margin: 15px 0 8px 18px;
+	  font-size: 13px;
+	  font-weight: bold;
+	  box-shadow: 1px 4px 6px black;
+	  padding: 5px 4px 5px 7px;
+	  display: inline-block;
+	}
+
+.list_hired_user .hired_car_name{
+	margin: 7px 0 16px 18px;
+	  font-size: 13px;
+	  font-weight: bold;
+	  display: inline-block;
+}
+
+.hired_car_name em{
+	  color: rgb(16, 15, 15);
+	  font-size: 11px;
+	  font-weight: bolder;
+	  padding-right: 8px;
+}
+
+/*end show hired user car detail*/
+
+/*start show user detail for hired car */
+.modal_username{
+	color: red;
+	font-weight: bold;
+}
+
+.hired {
+	font-size: 12px;
+	  font-weight: bolder;
+	  padding: 5px 0 7px 4px;
+	  color: black;
+}
+
+.show_user_info{
+	text-align: center;
+}
+
+.show_user_info{
+	 margin-top: -157px;
+	  margin-left: 116px;
+}
+
+.show_user_info img{
+	  width: 350px;
+	  height: 190px;
+	  border: 2px solid white;
+	  border-radius: 12px;
+	 
+	
+}
+
+.user_details{
+	width: 237px;
+	border: 2px solid rgba(124, 124, 124, 0.11);
+	border-radius: 10px;
+	padding: 8px 7px 8px 10px;
+}
+
+.user_details i{
+	padding-right:10px; 
+}
+.user_details p{
+	margin: 8px 0 10px 9px;
+	font-weight: bold;
+}
+
+
+
+.button {    
+    border-color: #CCCCCC #CCCCCC #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    color: #555555;
+    font-weight: bold;
+	text-decoration: none;
+    padding: 5px 15px;
+	font-size: 12px;
+	display: inline-block;
+    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;
+	margin-bottom: 10px;
+   background-image: -moz-linear-gradient(top, #fafafa, #E0E0E0);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafafa), to(#E0E0E0));
+   background-image: -webkit-linear-gradient(top, #fafafa, #E0E0E0); 
+   background-image: -ms-linear-gradient(top, #fafafa, #E0E0E0);
+   background-image: -o-linear-gradient(top, #fafafa, #E0E0E0);
+}
+
+
+
+
+
+
+
+
+

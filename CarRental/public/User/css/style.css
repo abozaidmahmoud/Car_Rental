@@ -1,0 +1,248 @@
+
+*{
+	font-family: Monda;
+	
+}
+
+
+/*start agency*/
+
+.ul_sort_agency{
+	list-style: none;
+}
+.ul_sort_agency li{
+	float: right;
+}
+
+.agency_name{
+	padding: 0px 11px 10px 9px;
+	font-weight: bold;
+	color: rgb(65, 148, 136);
+}
+
+
+.desing{
+	box-shadow: 0 1px 1px red;
+	color: black;
+}
+
+
+/*end agency*/
+
+/*start hired car*/
+.car_main_box{
+	margin-top:30px; 
+}
+
+.ul_list_car{
+	list-style: none;
+	 display: block;
+	  
+}
+
+
+.list_car {
+	  background-color: white;
+	  padding: 10px 9px 25px 12px;
+	  border-radius: 17px;
+	  width: 250px;
+	  float: left;
+}
+
+.list_car .img_car{
+	width:250px;
+	height:100px;
+	border-radius: 9%;
+	margin: 5px 4px 13px 3px;
+	transition: .5s ease ;
+	position: relative;
+	
+}
+
+.list_car .img_car:hover{
+	opacity: 0.7;
+	border-radius: 12%;
+}
+
+
+
+.list_car .carname{
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.hire_but{
+	width: 80px;
+	margin: auto;
+	display: block;
+	color: white;
+	background: black;
+}
+
+.hire_but_modal{
+	width: 80px;
+	margin: auto;
+	display: block;
+	color: white;
+	background: black;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.hire_bu:hover{
+	background: grey;
+	color: white;
+
+}
+
+.hire_but_modalt:hover{
+	background: grey;
+	color: white;
+}
+
+.hired{
+	  position: absolute;
+	  top: 51px;
+	  left: 82px;
+	  color: black;
+	  font-weight: bold;
+}
+
+.car_show_details{
+	position: absolute;
+	  top: 20px;
+	  left: 17px;
+	  color: rgb(36, 31, 34);
+	  cursor: pointer;
+	  padding: 1px 0px 0px 10px;
+	  width: 46px;
+	  display: inline-block;
+	  background-color: white;
+	  border: 2px solid rgb(240, 240, 240);
+	  border-radius: 27px;
+	  
+	}
+/*end hired car*/
+
+
+
+
+
+/*start show car detail*/
+
+.car_box{
+	margin-top: 25px;
+}
+
+.show_car_img{
+ width: 550px;
+ height: 278px;
+  padding: 4px 28px 0px 6px;
+}
+}
+.show_car_detail{
+	width: 465px;
+	height: 180px;
+	color: red;
+}
+
+.show_car_name{
+ margin-bottom: 5px;
+ color: rgb(23, 22, 22);
+ font-weight: bold;
+ text-transform: capitalize;
+ margin: 15px 10px;
+ display: inline-block;
+ border: 2px solid white;
+ background-color: white;
+ padding: 5px 6px 8px 8px;
+ border-radius: 15px;
+}
+
+.car_model{
+	margin-left: 16px;
+	color: rgb(21, 20, 20);
+	font-size: 10px;
+}
+.agency_name_list{
+	padding: 0 7px 0px 12px;
+}
+
+.car_description{
+	background-color: rgb(240, 240, 240);
+	padding: 8px 5px 13px 7px;
+	border-radius: 10px;
+
+}
+
+.list_all_img{
+	width: 250px;
+	height: 105px;
+	margin: 50px 38px 20px -25px;
+	transition: .5s ease;
+	border: 1px solid black;
+	border-radius: 8px;
+
+}
+.clicked_img{
+	border: 3px solid white;
+}
+
+.list_all_img:hover{
+	opacity: .7;
+	border: 1px solid white;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.rent_price{
+	text-align: center;
+	padding: 8px;
+	font-weight: bold;;
+	color: red;
+}
+
+.list_hired_users{
+	color: rgb(111, 104, 104);
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_hired_users_name{
+	font-weight: bold;
+	font-size: 11px;
+	color: rgb(53, 53, 56);
+	border: 1px solid rgb(15, 14, 14);
+	background-color: rgb(234, 234, 234);
+	padding: 5px 4px 6px 6px;
+	border-radius: 7px;
+	margin: 5px 8px 0px 4px;
+}
+
+.from , .to{
+	color: grey;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.time_from , .time_to{
+	 color: grey;
+	  font-size: 11px;
+	  font-weight: bold;
+	  padding: 5px 4px 8px 5px;
+	  margin: 0px 4px 8px 5px;
+	  display: inline-block;
+}
+
+
+.remain_time{
+	color: grey;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 8px;
+	padding-left: 13px;
+	padding-bottom: 9px;
+
+}
+/*end show car detail*/
